@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cf231a</color>
+    <color name="colorPrimaryDark">#a31208</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="txtcolor">#444af4</color>
+    <color name="btn_color">#b60a0a</color>
+    <color name="risk">#b40707</color>
+    <color name="riskless">#39c439</color>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Location"
+            android:textColor="@color/txtcolor"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="110dp"
+            />
+
+        <Button
+            android:id="@+id/btn_sync"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignTop="@+id/btn_GPS"
+            android:layout_toStartOf="@+id/btn_GPS"
+            android:background="@drawable/sync" />
+
+        <Button
+            android:id="@+id/btn_GPS"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/spinner"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/gps" />
+
+        <Button
+            android:id="@+id/btn_find"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/spinner"
+            android:layout_below="@+id/btn_GPS"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Get Information"
+            android:textAllCaps="false"
+            android:clickable="true"
+            android:textColor="#FFFFFF"
+
+            style="@style/button"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_find"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="My Locations"
+            android:textColor="@color/txtcolor"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/lst_mylocation"
+            android:backgroundTint="#FF8E0303"
+            android:background="#FF8E0303" />
+
+        <Button
+            android:id="@+id/btn_addtoMy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn_find"
+            android:layout_alignRight="@+id/btn_removefromMy"
+            android:background="@drawable/add_icon"
+            android:layout_marginRight="35dp" />
+
+        <Button
+            android:id="@+id/btn_removefromMy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/btn_find"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/remove_icon" />
+
+
+    </RelativeLayout>
+</LinearLayout>

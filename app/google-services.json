@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "295108995831",
+    "firebase_url": "https://dengueanalyzis.firebaseio.com",
+    "project_id": "dengueanalyzis",
+    "storage_bucket": "dengueanalyzis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295108995831:android:38e0b9412702880f",
+        "android_client_info": {
+          "package_name": "com.example.gayanlakshitha.dengueanalyzis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295108995831-ohhsajic217v8tme651od3lisui8i37i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gayanlakshitha.dengueanalyzis",
+            "certificate_hash": "9234e4c8609f8b79372483d40d1cda5bd1c29f12"
+          }
+        },
+        {
+          "client_id": "295108995831-1b9c1f3gmhdpkla1n2d7hkdvg59vu0s9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYTaxjS8e0r_1zIwcFxaJKpJPvgW1gO6c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295108995831-1b9c1f3gmhdpkla1n2d7hkdvg59vu0s9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
